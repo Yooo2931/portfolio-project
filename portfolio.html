@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Fazal's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project1">PROJECT</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            Hi,my name is <span class="red">Fazal Ahmed</span> I'm a <span id="element"></span>
+
+            <div class="btn">
+                <button class="bt"><a href="Hireme\hireme.html">HIRE ME</a></button>
+                <button class="bt2"><a href='resume.pdf' download="resume.pdf">DOWNLOAD RESUME</a></button>
+            </div>
+        </div>
+        <div class="rightsection"><img src="3428.jpg" alt="phtp"></div>
+
+    </section>
+    <section class="secondsection" id="about">
+        <p class="section_text">GET TO KNOW MORE</p>
+        <h1 class="title">About Me</h1>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['WEB DEVELOPER', 'WEB DESIGNER', 'FRON-END DEVEOLOPER'],
+                typeSpeed: 50,
+            });
+        </script>
+
+</body>
+
+</html>

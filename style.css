@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to right ,rgb(70, 70, 200),purple);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 13, 88);
+    height: 80%;
+
+}
+
+.right {
+    
+   margin: 5px;
+  
+}
+.right ul  {
+    margin: 0 23px;
+    display: flex
+;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.right ul li{
+    margin:26px 60px;
+}
+.left{
+    font-size: 1.4em;
+    padding: 5px;
+    margin: 2px;
+    width: 120px;
+    color: whitesmoke;
+    align-items:center ;
+}
+nav ul li a{
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: brown;
+    font-size: 20px;  
+}
+.firstsection{
+    display: flex;
+    
+}
+.firstsection > div{
+    width: 30%;
+}
+.rightsection img{
+ width: 140%;
+ margin:  60px 0 60px 
+ 
+}
+.rightsection{
+    margin: 0 23px;
+    margin-bottom: 210px;
+
+}
+.leftsection{
+   
+    font-size: 24px;
+    margin: 147px;
+    padding : 5px;
+
+}
+.red{
+    color:red
+}
+.bt{
+  background-color: rgba(21, 21, 113, 0.544);
+  border-radius: 5px;
+  padding: 2px;
+  color: aqua;
+  border-color: rgb(181, 139, 62);
+}
+.bt2{
+    background-color: rgba(21, 21, 113, 0.544);
+    border-radius: 5px;
+    padding: 2px;
+    color: aqua;
+    border-color: rgb(181, 139, 62);
+  }
+  .bt a:hover{
+    color: brown;
+    font-size: 15px;  
+}
+.bt2 a:hover{
+    color: brown;
+    font-size: 15px;  
+}

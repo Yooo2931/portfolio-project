@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hire me</title>
+    <link rel="stylesheet" href="hireme.css">
+</head>
+
+<body>
+    <section class="contact">
+        <h2>Contact me!</h2>
+        <form class="form" action="connect.php" method="post">
+            <div class="container">
+                <div class="i">
+                    <input type="text" id="fullname " placeholder=" Full Name" class="item" autocomplete="off" name="name">
+                    <div class="error-text">Full Name can't be blank</div>
+                </div>
+                <div class="i">
+                    <input type="email" id="email " placeholder=" Email Address" class="item" autocomplete="off" name="email">
+                    <div class="error-text">Email Adress can't be blank</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="i">
+                    <input type="tel" id="phone nummber " placeholder=" Phone Number" class="item"
+                        autocomplete="off" name="phno">
+                    <div class="error-text">Phone number can't be blank</div>
+                </div>
+                <div class="i">
+                    <input type="text" id="subject " placeholder=" Subject" class="item" autocomplete="off" name="subject">
+                    <div class="error-text">subject can't be blank</div>
+                </div>
+            </div>
+            <div class="i">
+                <textarea name="" id="Message" cols="30" rows="10" placeholder="Your Message" class="item"
+                    autocomplete="off"  name="messsage"></textarea>
+                <div class="error-text">Message can't be blank</div>
+            </div>
+            <button type="submit">Send Message</button>
+
+
+        </form>
+    </section>
+</body>
+
+</html>
